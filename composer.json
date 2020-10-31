@@ -1,0 +1,25 @@
+{
+    "name": "sajidh/dhivehi-date-laravel",
+    "description": "Change dhivehi date to redable format",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ahmed sajidh",
+            "email": "ahmedsajidh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sajidh\\Dhivehidate\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sajidh\\Dhivehidate\\ThaanaDateServiceProvider"
+            ]
+        }
+    }
+}
+
